@@ -1,0 +1,31 @@
+[submodule "amd-variant-provider"]
+	path = amd-variant-provider
+	url = ../amd-variant-provider
+
+[submodule "blas-lapack-variant-provider"]
+	path = blas-lapack-variant-provider
+	url = ../blas-lapack-variant-provider
+
+[submodule "huawei-ascend-variant-provider"]
+	path = huawei-ascend-variant-provider
+	url = ../huawei-ascend-variant-provider
+
+[submodule "intel-variant-provider"]
+	path = intel-variant-provider
+	url = ../intel-variant-provider
+
+[submodule "nvidia-variant-provider"]
+	path = nvidia-variant-provider
+	url = ../nvidia-variant-provider
+
+[submodule "openmp-variant-provider"]
+	path = openmp-variant-provider
+	url = ../openmp-variant-provider
+
+[submodule "provider-variant-aarch64"]
+	path = provider-variant-aarch64
+	url = ../provider-variant-aarch64
+
+[submodule "provider-variant-x86-64"]
+	path = provider-variant-x86-64
+	url = ../provider-variant-x86-64

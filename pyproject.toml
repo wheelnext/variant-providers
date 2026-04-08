@@ -1,0 +1,33 @@
+[tool.uv]
+package = false
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4,<5",
+    "ruff>=0.10,<1.0",
+    "twine",
+    "tox",
+    "wheel>=0.45",
+]
+
+[tool.uv.sources]
+amd-variant-provider = { path = "./amd-variant-provider/", editable = true }
+blas-lapack-variant-provider = { path = "./blas-lapack-variant-provider/", editable = true }
+huawei-ascend-variant-provider = { path = "./huawei-ascend-variant-provider/", editable = true }
+intel-variant-provider = { path = "./intel-variant-provider/", editable = true }
+nvidia-variant-provider = { path = "./nvidia-variant-provider/", editable = true }
+openmp-variant-provider = { path = "./openmp-variant-provider/", editable = true }
+provider-variant-aarch64 = { path = "./provider-variant-aarch64/", editable = true }
+provider-variant-x86-64 = { path = "./provider-variant-x86-64/", editable = true }
+
+[project]
+name = "Variant-Providers-Monorepo"
+version = "1.0.0"
+authors = [
+    { name = "Jonathan Dekhtiar", email = "jonathan@dekhtiar.com" },
+    { name = "Michał Górny", email = "mgorny@quansight.com" },
+    { name = "Konstantin", email = "konstin@mailbox.org" },
+]
+readme = "README.md"
+dependencies = []
+requires-python = ">=3.10"
